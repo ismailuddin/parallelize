@@ -1,5 +1,9 @@
 notebooks/
 *.ipynb
+.envrc
+environment.yml
+.vscode/
+*.DS_Store
 
 
 # Byte-compiled / optimized / DLL files
