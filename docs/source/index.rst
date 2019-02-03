@@ -1,8 +1,14 @@
 ``parallelize``
 =======================================
 
-.. image:: _static/logo.png
+.. figure:: _static/logo.png
    :width: 450px
+
+
+.. image:: https://readthedocs.org/projects/parallelize/badge/?version=latest
+    :target: https://parallelize.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
 
 A Python module for quickly parallelising functions using Python's
 ``multiprocessing`` module.

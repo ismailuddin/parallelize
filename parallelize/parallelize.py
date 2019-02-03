@@ -194,7 +194,7 @@ def retrieve_output(file_paths: List[Tuple[int, Path]]) -> list:
 
 def make_divisions(iterable: list, n_splits: int) -> list:
     """
-    Generates indices to divide iterable into equal portions. 
+    Generates indices to divide iterable into equal portions.
 
     Args:
         iterable (list): Iterable to divide.
@@ -215,6 +215,8 @@ def make_divisions(iterable: list, n_splits: int) -> list:
     length = len(iterable)
     _unit = length / n_splits
     unit = int(_unit)
-    divisions = list(range(0, length, unit))
+    divisions = [0]
+    for i in range(1, n_splits + 1):
+        divisions.append(unit * i)
     divisions[-1] = len(iterable)
     return divisions

@@ -2,6 +2,9 @@
 
 <img src="logo.png" width="500px" style="justify:left">
 
+[![Documentation Status](https://readthedocs.org/projects/parallelize/badge/?version=latest)](https://parallelize.readthedocs.io/en/latest/?badge=latest)
+
+
 `parallelize` is a Python package to simplify the process of parallelising your taks in Python. It takes advantage of the `multiprocessing` module to spawn new processes for your job.
 
 ### Requirements
