@@ -15,7 +15,7 @@
 To install `parallelize`, first clone the repository. Then, run `python setup.py install` in the root directory.
 
 ### Documentation
-To build the documentation, run `make html` inside the `docs/` folder. The documention will be found in the `docs/build/html` directory. 
+To build the documentation, run `make html` inside the `docs/` folder. The documention will be found in the `docs/build/html` directory. Alternatively, view documentation [here](https://parallelize.readthedocs.io).
 
 ### Usage
 
