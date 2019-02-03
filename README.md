@@ -3,7 +3,8 @@
 <img src="logo.png" width="500px" style="justify:left">
 
 [![Documentation Status](https://readthedocs.org/projects/parallelize/badge/?version=latest)](https://parallelize.readthedocs.io/en/latest/?badge=latest)
-
+![AUR](https://img.shields.io/aur/license/yaourt.svg)
+[![CircleCI](https://circleci.com/gh/ismailuddin/parallelize.svg?style=svg)](https://circleci.com/gh/ismailuddin/parallelize)
 
 `parallelize` is a Python package to simplify the process of parallelising your taks in Python. It takes advantage of the `multiprocessing` module to spawn new processes for your job.
 

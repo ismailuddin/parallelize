@@ -9,6 +9,12 @@
     :target: https://parallelize.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
+.. image:: https://circleci.com/gh/ismailuddin/parallelize.svg?style=svg
+    :target: https://circleci.com/gh/ismailuddin/parallelize
+
+.. image:: https://img.shields.io/aur/license/yaourt.svg
+
+
 
 A Python module for quickly parallelising functions using Python's
 ``multiprocessing`` module.
