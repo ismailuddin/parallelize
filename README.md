@@ -12,7 +12,9 @@
 - Python 3.X
 
 ### Installation
-To install `parallelize`, first clone the repository. Then, run `python setup.py install` in the root directory.
+To install `parallelize`, you can either install from the source code or using `pip`.
+
+To install from source code, first clone the repository. Then, run `python setup.py install` in the root directory.
 
 ### Documentation
 To build the documentation, run `make html` inside the `docs/` folder. The documention will be found in the `docs/build/html` directory. Alternatively, view documentation [here](https://parallelize.readthedocs.io).

@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="parallelize",
+    name="pyparallelize",
     version="0.1.0",
     author="Ismail Uddin",
     description="Package to simplify process of parallelising tasks",

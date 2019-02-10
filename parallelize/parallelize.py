@@ -29,7 +29,12 @@ def time_function(func: Callable) -> Callable:
         value = func(*args, **kwargs)
         end_time = time.perf_counter()
         run_time = end_time - start_time
-        print(f"Completed in {func.__name__!r} in {run_time:.4f} secs")
+        print(
+            "Completed in {} in {:.4f} secs".format(
+                repr(func.__name__),
+                run_time
+            )
+        )
         return value
     return wrapper_time_function
 
